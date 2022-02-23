@@ -1,4 +1,6 @@
 @charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 /* CUSTOM FONTS */
 @font-face {
   font-family: "Mont";
@@ -27,6 +29,8 @@
   font-weight: 800;
   font-style: normal;
 }
+
+
 /* BODY */
 * {
   outline: none !important;
@@ -37,6 +41,7 @@ body {
   padding-left: 150px;
   padding-right: 50px;
   font-family: "Mont";
+  /* font-family: 'Poppins', sans-serif; */
   font-size: 17px;
   color: #282828;
   -webkit-transition: all 0.4s ease-in-out;
@@ -341,6 +346,7 @@ moe .color-dark .left-side ul li a:hover {
   /* background: #282828; */
   /* background: #ff5f5f; */
   background: #ffffff;
+  /* background: #000000; */
 
   opacity: 1;
   -webkit-transition: all 0.3s ease;
@@ -413,11 +419,15 @@ moe .color-dark .left-side ul li a:hover {
   font-weight: 800;
   /* color: #fff; */
   color: #000000;
+  background: -webkit-linear-gradient(45deg, rgba(232,143,91,1) 0%, rgba(237,123,101,1) 49%, rgba(223,39,55,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
   text-align: center;
-  opacity: 0.05;
+  opacity: 0.8;
   transition-delay: 0.1s;
 }
 
@@ -954,12 +964,27 @@ body .slider {
   margin-top: 50px;
 }
 .header .headlines h1 {
-  font-size: clamp(2rem, -1.94rem + 10.5vw, 5.94rem);
+  font-size: clamp(2.2rem, -1.94rem + 10.5vw, 5.94rem);
+  /* color: linear-gradient(140deg, rgba(0,16,36,1) 0%, rgba(9,26,121,1) 44%, rgba(0,185,255,1) 100%); */
   font-weight: 800;
   line-height: 1;
   margin: 0;
   padding-bottom: 5px;
 }
+
+.header .headlines h1 span{
+  background: -webkit-linear-gradient(45deg, rgba(232,143,91,1) 0%, rgba(237,123,101,1) 49%, rgba(223,39,55,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* .headlines-bg-text {
+  background: -webkit-linear-gradient(45deg, rgba(34,195,185,1) 0%, rgba(92,223,39,1) 49%, rgba(39,223,57,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 800;
+} */
+
 
 .header .headlines h2 {
   font-size: 16px;
@@ -977,6 +1002,7 @@ body .slider {
   max-width: 1200px;
   margin: 0 auto;
 }
+
 
 /* NAVBAR */
 .navbar {
