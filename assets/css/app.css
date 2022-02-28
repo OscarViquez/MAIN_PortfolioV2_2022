@@ -70,7 +70,7 @@ STYLESHEET INDEXING
   --color-dark: #27272e;
   --color-text-dark: #292930;
   --color-accent1: #1070ff;
-  --color-accent2: #fab8c4;
+  --color-accent2: #e28323;
   --color-blue-shade: #6865ff;
   --color-link: #1070ff;
   --color-mabel: #dbf8ff;
@@ -1069,7 +1069,7 @@ input {
   content: "";
   height: 300px;
   width: 300px;
-  background-color: var(--color-link);
+  background-color: #e28323;;
   border-radius: 50%;
   position: absolute;
   top: 50%;
@@ -1083,8 +1083,8 @@ input {
 }
 
 .axil-btn.btn-fill-primary:hover {
-  background-color: var(--color-link);
-  border-color: var(--color-link);
+  background-color: #e28323;;
+  border-color: #e28323;;
 }
 
 .axil-btn.btn-fill-primary:hover::after {
